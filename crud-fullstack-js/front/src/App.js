@@ -1,20 +1,22 @@
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+
 import "./App.css";
-import Sidebar from "./components/Sidebar";
-import Content from "./components/Content";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Home from "./components/Home";
+import Productlist from "./components/Productlist";
+import Checkout from "./components/Checkout";
 
 function App() {
   return (
-    <div>
-      <div class="row d-flex">
-        <div class="col-2 position-fixed">
-          <Sidebar />
-        </div>
-        <div class="col-2"></div>
-        <div class="col-9">
-          <Content />
-        </div>
-      </div>
-    </div>
+      <>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/productlist" element={<Productlist />} />
+          <Route path="/checkout" element={<Checkout />} />
+        </Routes>
+      </>
   );
 }
 

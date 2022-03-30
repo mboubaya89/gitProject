@@ -24,37 +24,31 @@ function Sidebar() {
       <hr />
       <ul class="nav nav-pills flex-column mb-auto">
         <li class="nav-item">
-          <a href="#" class="nav-link active" aria-current="page">
+          <a href="https://www.google.fr/" class="nav-link active" aria-current="page">
             <svg class="bi me-2" width="16" height="16"></svg>
-            Home
+            Home 1
           </a>
         </li>
         <li>
-          <a href="#" class="nav-link link-dark">
+          <a href="https://www.google.fr/" class="nav-link link-dark">
             <svg class="bi me-2" width="16" height="16"></svg>
             Dashboard
           </a>
         </li>
         <li>
-          <a href="#" class="nav-link link-dark">
-            <svg class="bi me-2" width="16" height="16"></svg>
-            Checkout >>>
-          </a>
-        </li>
-        <li>
-          <a href="#" class="nav-link link-dark">
+          <a href="https://www.google.fr/" class="nav-link link-dark">
             <svg class="bi me-2" width="16" height="16"></svg>
             Orders
           </a>
         </li>
         <li>
-          <a href="#" class="nav-link link-dark">
+          <a href="https://www.google.fr/" class="nav-link link-dark">
             <svg class="bi me-2" width="16" height="16"></svg>
             Products
           </a>
         </li>
         <li>
-          <a href="#" class="nav-link link-dark">
+          <a href="https://www.google.fr/" class="nav-link link-dark">
             <svg class="bi me-2" width="16" height="16"></svg>
             Customers
           </a>

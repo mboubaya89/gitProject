@@ -1,8 +1,10 @@
 import "../styles/Productlist.css";
+import Filterform from "./Filterform"
 
 function Productlist() {
   return (
     <div className="App">
+        <Filterform />
       <div class="album py-5 bg-light">
         <div class="container">
           <div class="row row-cols-2 row-cols-lg-5 g-2 g-lg-3">
