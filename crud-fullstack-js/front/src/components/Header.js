@@ -28,15 +28,16 @@ function Header() {
               </Link>
             </li>
             <li>
-              <Link to="/checkout" class="nav-link px-2 link-dark">
-                Checkout
-              </Link>
-            </li>
-            <li>
               <Link to="/productlist" class="nav-link px-2 link-dark">
                 Products
               </Link>
             </li>
+            <li>
+              <Link to="/checkout" class="nav-link px-2 link-dark">
+                Checkout
+              </Link>
+            </li>
+            
             <li>
               <Link to="/inventory" class="nav-link px-2 link-dark">
                 Inventory
@@ -47,6 +48,12 @@ function Header() {
                 Customers
               </Link>
             </li>
+            <li>
+              <Link to="/addproduct" class="nav-link px-2 link-dark">
+                Addproduct
+              </Link>
+            </li>
+            
           </ul>
 
           <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">

@@ -1,6 +1,5 @@
 import "../styles/Content.css";
 import Productlist from "./Productlist";
-import Filterform from "./Filterform";
 import Sidebar from "./Sidebar";
 
 function Content() {
@@ -10,12 +9,10 @@ function Content() {
         <Sidebar />
       </div>
       <div class="col-2"></div>
-      <div class="col-9"></div>
-      <div class="row ">
-        <Filterform />
-      </div>
-      <div class="row ">
-        <Productlist />
+      <div class="col-9">
+        <div class="row ">
+          <Productlist />
+        </div>
       </div>
     </div>
   );
